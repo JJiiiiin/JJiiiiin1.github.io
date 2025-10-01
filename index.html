@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20111-이예진 작품</title>
+    <style>
+        header {
+            background-color: #BBDCE5;
+            width: 100%;
+            height: 100px;
+            padding: 0 20px;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        nav{
+            background-color: #ECEEDF;
+            width: 95%;
+            /* height: auto; */
+            padding: 20px ;
+            /* border: 0; */
+            margin-left: 0px;
+            display: flex;
+            justify-content:space-between;
+        }
+
+        footer{
+            background-color: #CFAB8D;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            width: 100%; 
+            position: relative; 
+            bottom: 0;
+        }
+        section{
+        }
+        main{
+            width:auto;
+            height: 700px;
+        }
+
+        aside{
+            position: fixed;  
+            top: 300px;           
+            right: 0;         
+            width: 300px; 
+            padding: 25px;
+            background-color: #D9C4B0; 
+        }
+
+    @font-face {
+        font-family: 'BookkMyungjo';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/BookkMyungjo-Lt.woff2') format('woff2');
+        font-weight: 400;
+        font-display: swap;
+    }
+
+    aside, header, section, footer{
+      font-family: 'BookkMyungjo', serif;
+    }
+
+    #cool{
+      padding: 25px;
+      display: flex;
+      align-items: center;
+    }
+
+    #cool .cott {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 300px;
+      width: 200px; 
+      text-align: center;
+    }
+    #cool img{
+      padding: 25px;
+      width: 90%;
+    }
+
+    </style>
+</head>
+<body>
+    <header><h1 style="color: white;">Lee Ye Jin</h1></header>
+    <nav>
+        <section id="clickable-section1" style="cursor:pointer;">3D MAX</section>
+        <section id="clickable-section2" style="cursor:pointer;">Blender</section>
+        <section id="clickable-section3" style="cursor:pointer;">Activity</section>
+        <section id="clickable-section4" style="cursor:pointer;">Drawing</section>
+        <section id="clickable-section5" style="cursor:pointer;">Certification</section>
+
+        <script>
+            document.getElementById('clickable-section1').addEventListener('click', function() {
+              window.location.href = '3D MAX.html';
+            });
+
+            document.getElementById('clickable-section2').addEventListener('click', function() {
+              window.location.href = 'Blender.html';
+            });
+
+            document.getElementById('clickable-section3').addEventListener('click', function() {
+              window.location.href = 'Activity.html';
+            });
+
+            document.getElementById('clickable-section4').addEventListener('click', function() {
+              window.location.href = 'Drawing.html';
+            });
+
+            document.getElementById('clickable-section5').addEventListener('click', function() {
+              window.location.href = 'Certification.html';
+            });
+          </script>
+    </nav>
+
+    <div id="cool">
+      <div class="cott">
+        <h1>어서오세요</h1>
+      </div>
+      <img src="img/IMG_9869.jfif">
+    </div>
+    
+    <aside>
+      안녕하세요 선일빅데이터고등학교에 재학중인 2학년 이예진입니다.<br><br>
+      <img src="img/wordcloud.png" width="300px">
+    
+    </aside>
+
+    <footer>
+        소속:    선일빅데이터고등학교<br>
+        이메일:      qxazsw1423@gmail.com<br>
+        사용한 폰트:      부크크 명조 폰트
+    </footer>
+</body>
+
+
+</html>
